@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  position: relative;
+}
+
+.App-logo {
+  height:100vh;
+  width:100vw;
+  position:relative;
+}
+
+.Text-block {
+  font-family: 'Press Start 2P';
+  font-size: calc(5px + 2vmin);
+  position: absolute;
+  
+  text-align: left;
+  color:rgb(243, 187, 67);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  top: 25%;
+  left: 25%;
+}
+
+.typeWriter {
+  line-height: 4vh;
+  margin-bottom: 1vh !important
+}
+
+.topics {
+  padding-left:10px;
+  line-height: 6vh;
+  margin-top:0 !important;
+  margin-bottom:0 !important;
+}
+
+.App-link {
+  color: #61dafb;
+}
