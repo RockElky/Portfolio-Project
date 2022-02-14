@@ -7,27 +7,21 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   position: relative;
 }
 
 .App-logo {
-  height:100vh;
+  height:80vh;
   width:100vw;
   position:relative;
+  vertical-align: bottom;
 }
 
 .Text-block {
   font-family: 'Press Start 2P';
   font-size: calc(5px + 2vmin);
   position: absolute;
-  
   text-align: left;
   color:rgb(243, 187, 67);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
@@ -41,12 +35,35 @@
 }
 
 .topics {
-  padding-left:10px;
-  line-height: 6vh;
+  color:rgb(243, 187, 67);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-family: 'Press Start 2P';
+  font-size: calc(5px + 1vmin);
   margin-top:0 !important;
   margin-bottom:0 !important;
+  position: absolute;
+  display:flex;
+  top: 4vh;
+  right: 4vw;
+  scroll-behavior: smooth;
 }
 
-.App-link {
-  color: #61dafb;
+.About, .Projects, .Hobbies {
+  margin-right: 3vw;
+}
+
+.Para {
+  height:50vh;
+  background-color: gray;
+  margin-top:0 !important;
+  margin-bottom:0 !important;
+  display:flex;
+}
+
+.Pro {
+  height:100vh;
+  background-color: white;
+  margin-top:0 !important;
+  margin-bottom:0 !important;
+  display:flex;
 }
