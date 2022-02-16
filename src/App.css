@@ -60,12 +60,25 @@
   display:flex;
 }
 
-.Pro {
+.ParaBanner {
+  height:30vh;
+  width: 100vw;
+  background-color: black;
+  position:relative;
+}
+
+
+.projectsArea
+{
   height:100vh;
-  background-color: purple;
-  margin-top:0 !important;
-  margin-bottom:0 !important;
-  display:flex;
+  width:100vw;
+}
+
+.hProject
+{
+  font-size:40px;
+  left:45vw;
+  top:45vh;
 }
 
 .bgpath {
@@ -76,13 +89,3 @@
   display:flex;
 }
 
-.paragif{
-  height:40vh;
-  position: absolute;
-}
-
-.description {
-  font-size: 16px;
-  line-height:25px;
-  padding-top:10px;
-}
