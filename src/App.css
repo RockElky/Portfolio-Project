@@ -12,7 +12,7 @@
 }
 
 .App-logo {
-  height:80vh;
+  height:100vh;
   width:100vw;
   position:relative;
   vertical-align: bottom;
@@ -26,7 +26,7 @@
   color:rgb(243, 187, 67);
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   top: 25%;
-  left: 25%;
+  left: 15%;
 }
 
 .typeWriter {
@@ -45,7 +45,6 @@
   display:flex;
   top: 4vh;
   right: 4vw;
-  scroll-behavior: smooth;
 }
 
 .About, .Projects, .Hobbies {
@@ -53,7 +52,8 @@
 }
 
 .Para {
-  height:50vh;
+  height:60vh;
+  width:100vw;
   background-color: gray;
   margin-top:0 !important;
   margin-bottom:0 !important;
@@ -62,8 +62,27 @@
 
 .Pro {
   height:100vh;
-  background-color: white;
+  background-color: purple;
   margin-top:0 !important;
   margin-bottom:0 !important;
   display:flex;
+}
+
+.bgpath {
+  height:40vh;
+  width:100vw;
+  margin-top:0 !important;
+  margin-bottom:0 !important;
+  display:flex;
+}
+
+.paragif{
+  height:40vh;
+  position: absolute;
+}
+
+.description {
+  font-size: 16px;
+  line-height:25px;
+  padding-top:10px;
 }
