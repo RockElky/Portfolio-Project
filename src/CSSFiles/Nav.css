@@ -1,0 +1,16 @@
+.navBar {
+    color:rgb(243, 187, 67);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Press Start 2P';
+    font-size: calc(5px + 1vmin);
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+    position: absolute;
+    display:flex;
+    top: 4vh;
+    right: 4vw;
+  }
+  
+  .About, .Projects, .Hobbies {
+    margin-right: 3vw;
+  }

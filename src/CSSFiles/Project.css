@@ -1,0 +1,19 @@
+.projectsArea
+{
+  height:100vh;
+  width:100vw;
+  background-color: rgb(60, 50, 112);
+}
+
+.hProject
+{
+  color:rgb(243, 187, 67);
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  font-family: 'Press Start 2P';
+  font-size:25px;
+  left:45vw;
+  top:45vh;
+  padding-top:50px;
+  margin-top:0 !important;
+  margin-bottom:0 !important;
+}

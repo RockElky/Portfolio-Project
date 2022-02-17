@@ -1,0 +1,54 @@
+.HomeBG {
+    height:100vh;
+    width:100vw;
+    position:relative;
+    vertical-align: bottom;
+  }
+  
+  .openingText {
+    font-family: 'Press Start 2P';
+    font-size: calc(5px + 2vmin);
+    position: absolute;
+    text-align: left;
+    color:rgb(243, 187, 67);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    top: 25%;
+    left: 15%;
+  }
+  
+  .tagLine {
+  line-height: 30px;
+  width: 55vw;
+  }
+  
+  .typeWriter {
+    line-height: 4vh;
+    margin-bottom: 1vh !important
+  }
+  
+  .Para {
+    height:60vh;
+    width:100vw;
+    background-color: gray;
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+    display:flex;
+  }
+  
+  .ParaBanner {
+    height:40vh;
+    width: 100vw;
+    background-color: black;
+    position:relative;
+  }
+  
+  .BannerText {
+    color:rgb(243, 187, 67);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Press Start 2P';
+    font-size:25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
