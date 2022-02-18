@@ -1,8 +1,9 @@
 .projectsArea
 {
-  height:100vh;
-  width:100vw;
-  background-color: rgb(60, 50, 112);
+  height:100%;
+  width:100%;
+  background-color: rgb(255, 248, 236);
+  overflow:hidden;
 }
 
 .hProject
@@ -11,9 +12,36 @@
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-family: 'Press Start 2P';
   font-size:25px;
-  left:45vw;
-  top:45vh;
-  padding-top:50px;
+  padding-top:100px;
+  padding-bottom:0px;
   margin-top:0 !important;
   margin-bottom:0 !important;
 }
+
+.pOne, .pTwo, .pThree {
+    height:45vh;
+    background-color: white;
+    box-shadow:   -15px 0 0 0 rgb(63, 16, 82),
+                   15px 0 0 0 rgb(63, 16, 82),
+                   0 -15px 0 0 rgb(63, 16, 82),
+                   0 15px 0 0 rgb(63, 16, 82);
+}
+
+.twoContents {
+    font-family: 'Zrnic', sans-serif;
+}
+.oneDesc, .twoDesc, .threeDesc {
+    font-family: 'Zrnic', sans-serif;
+    text-align: center;
+    justify-content: center;
+    margin-top:20%;
+
+}
+
+.pOne,.pTwo,.pThree {
+    margin:40px;
+    margin-top:30vh !important;
+    width:auto;
+}
+
+

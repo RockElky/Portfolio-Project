@@ -20,8 +20,19 @@ function Home() {
                     <NavBar />
                     <article className="openingText">
                         <h3 className='typeWriter'><Typewriter onInit={(typewriter) => {
+                            typewriter.typeString("").changeDelay(50)
                             typewriter.typeString("Hi, I'm Erik Oehlke.")
-                                .start();
+                            typewriter.typeString("I like to")
+                            typewriter.typeString("Design")
+                            .deleteChars(6)
+                            typewriter.typeString("Draw")
+                            .deleteChars(4)
+                            typewriter.typeString("Create")
+                            .deleteChars(6)
+                            typewriter.typeString("Build")
+                            .deleteChars(5)
+                            .start();
+                            
                         }}
                         />
                         </h3>

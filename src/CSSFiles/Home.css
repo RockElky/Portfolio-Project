@@ -4,26 +4,40 @@
     position:relative;
     vertical-align: bottom;
   }
+
+/*   
+  .introContainer {
+
+  } */
   
-  .openingText {
-    font-family: 'Press Start 2P';
-    font-size: calc(5px + 2vmin);
-    position: absolute;
-    text-align: left;
-    color:rgb(243, 187, 67);
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  .openingText  {
+    position:absolute;
     top: 25%;
     left: 15%;
+    color:rgb(243, 187, 67);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-family: 'Press Start 2P';
+    font-size: calc(5px + 2vmin);
+    margin-top:0 !important;
+    margin-bottom:0 !important;
+    position: absolute;
+    display:inline-block;
+    width: 50vw;
+    text-align: left;
+
   }
+
+  /* .Typewriter {
+    font-family: 'Press Start 2P';
+    font-size: calc(5px + 2vmin);
+    color:rgb(243, 187, 67);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    position:absolute;
+  } */
   
   .tagLine {
   line-height: 30px;
   width: 55vw;
-  }
-  
-  .typeWriter {
-    line-height: 4vh;
-    margin-bottom: 1vh !important
   }
   
   .Para {
